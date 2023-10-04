@@ -1,0 +1,53 @@
+#main{
+    display: flex;
+}
+#div1{
+    flex: 3;
+    background-color: tan;
+}
+#div2{
+    background-color: tomato;
+    flex: 5;
+    padding-left: 130px;
+    padding-top: 2cm;
+    padding-bottom: 3.5cm;   
+}
+#div2{
+    display: inline;
+}
+
+#previous_digit{
+    width: 403.5px;
+    height: 60px;
+    border: none;
+    font-size: x-large;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.276);
+}
+#current_digit{
+    width: 403.5px;
+    height: 60px;
+    border: none;
+    font-size: x-large;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+button{
+    border: none;
+    width: 101px;
+    height: 60px;
+    font-size: x-large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(128, 255, 0);   
+}
+#div3{
+    flex: 3;
+    background-color: tan;
+}
